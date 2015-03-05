@@ -1,0 +1,114 @@
+html{
+  font-family: Merriweather, serif;
+  box-sizing: border-box;
+}
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+.grain-left {
+  width:7%;
+  float: left;
+  margin: .5;
+  margin-top: .9em;
+}
+.grain-right {
+  width: 7%;
+  float: right;
+  margin-top: .9em;
+}
+h1 {
+  text-align: center;
+  margin: .1;
+  color: white;
+  padding-bottom: .1em;
+}
+
+h2 {
+  color: #Fff;
+  background-color: #BD6A4F;
+  padding: 1em 2em 1em 2em;
+  margin: 0;
+  text-align: center;
+  clear: right
+}
+
+
+figcaption {
+  color: #Fff;
+  background-color: #BD6A4F;
+  padding: 1em 2em 1em 2em;
+  margin: 0;
+  text-align: center;
+  clear: right
+}
+
+
+main {
+  margin: .6em;
+  line-height: 1.25em;
+}
+nav li {
+  float: left;
+  display: inline-block;
+}
+.inset {
+  width: 40%;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  clear: left;
+}
+
+.insetrightone {
+  width: 40%;
+  float: right;
+  margin-right: 10px;
+  clear: left;
+}
+
+.insetrighttwo {
+  width: 40%;
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  clear: right;
+}
+
+.insertcenterfour {
+  width: 100%;
+}
+
+.p1 {
+  clear: left;
+}
+
+Header {
+  background-color: #cd5b34;
+  padding-top: .5em;
+  overflow: hidden;
+}
+body {
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+nav li{
+  width: 33.3%;
+  border: 1px solid orange;
+  padding: .5em;
+  text-align: center;
+}
+
+nav ol{
+  overflow: hidden;
+  margin: auto;
+  width: 100%;
+  padding: 0;
+}
+
+li:hover{
+  background-color: red;
+}
